@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ca934b;
+    margin: 0%;
+    padding: 0%;
+    font-family: patrick hand;
+}
+
+#header{
+    top: 0;
+    background: #aa7c40;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    position: fixed;
+    margin: auto;
+}
+
+.cabezera{
+    width: 80%;
+}
+
+#header-img{
+    width: 7%;
+    padding: 0%;
+}
+
+#nav-bar{
+    margin-bottom: 0;
+    padding: 0%;
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    padding: 10px;
+    margin: 0%;
+    text-align: right;*/
+}
+
+.nav-link{
+    padding: 2vw;
+    position: relative;
+}
+
+.form{
+    padding: 2vw;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    background-color: rgb(255, 213, 134);
+    margin: auto;
+}
+
+#email{
+    margin: 2vw;
+}
+
+#submit{
+    background: rgb(192, 127, 80);
+    border: 1px  solid  gray;
+    border-radius: 4px;
+    padding: 2%;
+}
+
+.link-a{
+    padding: 4%;
+    font-size: 2vw;
+    color: black;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+}
+
+.section{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 3vw;
+    margin-left: 10%;
+    background-color: #aa7c40;
+    margin: auto;
+    
+}
+
+#video{
+    width: 90%;
+}
+
+h3{
+    font-size: 2vw;
+}
+
+p{
+    font-size: 1.7vw;
+}
+
+#div-madre{
+    margin-top: 25%;
+
+}
+
+.img-m{
+    width: 25%;
+    padding: 5px;
+}
+
+#precios{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.buttom{
+    background: rgb(192, 127, 80);
+    font-size: 1.5vw;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0.5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.bolso{
+    width: 27%;
+    height: 90%;
+    float: left;
+    background:  rgb(255, 213, 134);
+    padding: 20px;
+    margin: 2%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+h3{
+    text-align: center;
+    width: 100%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.imagen{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    
+    p{
+        font-size: 4vw;
+    }
+    h3{
+        font-size: 5vw;
+    }
+    
+    .bolso{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .buttom{
+        font-size: 4vw;
+    }
+
+    .link-a{
+        font-size: 4vw;
+    }
+
+    #header-img{
+        width: 7vw;
+    }
+
+    .form{
+        width: 50vw;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    
+    p{
+        font-size: 3vw;
+    }
+
+    h3{
+        font-size: 5vw;
+    }
+
+    .link-a{
+        font-size: 3vw;
+    }
+
+    .bolso{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
